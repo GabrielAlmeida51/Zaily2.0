@@ -4,9 +4,11 @@
   }
   
   a {
-    color: #fff;
+    color: #8f5ac8;
     text-decoration: none;
     transition: 0.3s;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   a:hover {
@@ -24,12 +26,12 @@
     justify-content: space-around;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #23232e;
+    background: white;
     height: 8vh;
   }
   
   main {
-    background: url("../img/koa4.jpg") no-repeat center center;
+    background: white;
     background-size: cover;
     height: 92vh;
   }
@@ -116,23 +118,23 @@
   }
 
   main div img {
-    border: 1px solid #ccc;
+    border: 2px solid rgb(40, 40, 40);
     border-radius: 10%;
     padding: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
     filter: grayscale(50%);
     width: 15%;
     height: 200px; 
     margin-top: 60px; 
     object-fit: cover; 
+    animation: bouncing 1s;
   }
   
-  main div img:hover {
-    transform: scale(1.1);
-    filter: grayscale(0%);
-    
-    
-  }
+@keyframes bouncing{
+  0% ,50% {transform: translateY(0);}
+  40% {transform: translateY(-35px);}
+  60% {transform: translateY(-15px);}
+}
   
 

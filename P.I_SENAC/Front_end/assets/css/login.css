@@ -3,15 +3,16 @@
     margin: 0;
 }
 body {
-    background: url("../img/man-running-park-forest-against-trees.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
   }
 
+
+
 div{
   border-radius: 10px;
   backdrop-filter: blur(15px);
-  border: 2px solid rgb(255, 255, 255, 0.1);
+  border: 4px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 40px black;
   padding: 50px 35px;
   position: absolute;
@@ -21,7 +22,11 @@ div{
   padding: 80px;
   border-radius: 15px;
   color: #fff;
+  background-image: linear-gradient(to bottom right, #beed80, #59d999, #31ada1, #51647a, #453c5c);
+
 }
+
+
 div a{
     text-decoration: none;
     color: #fff;
