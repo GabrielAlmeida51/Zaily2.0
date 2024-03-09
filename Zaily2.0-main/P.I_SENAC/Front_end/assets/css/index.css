@@ -5,7 +5,7 @@ body {
   }
   
   a {
-    color:  #8A2BE2;
+    color:  #651c64;
     text-decoration: none;
     transition: 0.3s;
     font-size: 20px;
@@ -132,7 +132,7 @@ body {
 }
 
   div h1 {
-    color: #8A2BE2;
+    color: #973595;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     background: none;
@@ -163,4 +163,65 @@ section div .mancha{
     background: radial-gradient(circle, #a980d0 20%, transparent 80%);
     top: -20px; /* Ajuste a posição para onde você deseja a mancha */
     left: 12px; /* Ajuste a posição para onde você deseja a mancha */
+}
+
+.carousel-container {
+  position: relative;
+  width: 1100px; /* Largura de cada painel */
+  margin: 50px auto;
+  overflow: hidden; /* Adicionando overflow: hidden para esconder conteúdo que ultrapassa a largura */
+  background-color: #e0e0e0; /* Cor de fundo do contêiner do carrossel */
+  top: 300px;
+  border-radius: 30px;
+}
+
+
+.carousel-container div img{
+  max-width: 1100px;
+
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 4400px; /* Largura total do carrossel - 4 painéis * 1100px */
+}
+
+.panel {
+  width: 1100px;
+  height: 400px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: 1px solid #ccc; /* Cor da borda dos painéis */
+  border-radius: 10px; /* Adicionando bordas arredondadas */
+  overflow: hidden; /* Garantindo que a imagem não ultrapasse as bordas arredondadas */
+  background-color: #f8f8f8; /* Cor de fundo dos painéis */
+  box-shadow: 10px 5px 5px 1px #651c64 ;
+}
+
+.content {
+  padding: 20px;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: transparent; /* Cor de fundo das setas de navegação */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
 }

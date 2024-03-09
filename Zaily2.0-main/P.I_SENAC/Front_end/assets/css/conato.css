@@ -5,7 +5,7 @@ body {
   }
   
   a {
-    color:  #8A2BE2;
+    color: #651c64;
     text-decoration: none;
     transition: 0.3s;
     font-size: 20px;
@@ -112,3 +112,25 @@ body {
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
+
+  .Nosso-Grupo div img{
+    max-width: 80px;
+    max-height: 80px;
+    height: 80px;
+    width: 80px;
+    
+    border-radius: 50%;
+  }
+
+  .Nos{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
