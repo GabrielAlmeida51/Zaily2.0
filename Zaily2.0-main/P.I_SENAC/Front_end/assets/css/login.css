@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-
+*{
+  background-color: aliceblue;
+}
 body {
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
@@ -12,7 +14,7 @@ body * {
 .main-login {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(200, 200, 200, 1);
+  background-color: #631060;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +60,8 @@ body * {
 }
 
 .card-login > h1 {
-  color: rgba(200, 200, 200, 1);;
+  color: rgba(200, 200, 200, 1);
+  background-color: #7a1779;
   font-weight: 800;
   margin: 0;
 }
@@ -70,6 +73,7 @@ body * {
   align-items: flex-start;
   justify-content: center;
   margin: 10px 0px;
+  background-color: #7a1779;
 }
 
 .textfield > input {
@@ -88,6 +92,7 @@ body * {
 .textfield > label {
   color: #f0ffffde;
   margin-bottom: 10px;
+  background-color: #7a1779;
 }
 
 .textfield > input::placeholder {
@@ -111,6 +116,7 @@ body * {
 }
 .btn-login a{
   color: rgba(200, 200, 200, 1);
+  background-color: #973595;
 }
 a{
     text-decoration: none;
@@ -152,12 +158,6 @@ a:hover{
   .card-login {
     width: 90%;
   }
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgba(200, 200, 200, 1);
 }
 
 a {

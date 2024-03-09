@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(200, 200, 200, 1);
+    background-color: aliceblue;
   }
   
   a {
@@ -10,6 +10,7 @@ body {
     transition: 0.3s;
     font-size: 20px;
     font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;
+    
   }
   
   a:hover {
@@ -118,9 +119,11 @@ body {
     max-height: 80px;
     height: 80px;
     width: 80px;
-    
     border-radius: 50%;
+    box-shadow: 10px 5px 5px #23232e;
   }
+  
+
 
   .Nos{
     display: flex;
@@ -131,6 +134,17 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 130px;
+    border-radius: 50%;
+
   }
+
+.Nome-imagem h1{
+  color: #23232e;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 
