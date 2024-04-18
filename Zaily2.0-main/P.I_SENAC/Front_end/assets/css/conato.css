@@ -144,6 +144,28 @@ body {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
+section{
+  display: flex;
+  width: 900px;
+  height: 450px;
+  position: absolute;
+  top: 30%;
+  left: 490px;
+}
+section img{
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+
+}
+section img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
 
 
 
