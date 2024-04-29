@@ -7,16 +7,17 @@ body {
 
  * {
   box-sizing: border-box;
-  background-color: #f9ffe5;
+  background-color: none;
 }
 
 .main-login {
   width: 100vw;
   height: 100vh;
-  background-color: #38c958;
+  background-color: #f9ffe5;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .left-login {
