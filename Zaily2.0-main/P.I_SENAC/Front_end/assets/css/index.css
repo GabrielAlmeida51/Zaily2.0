@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: #f9ffe5;
   }
   
   a {
-    color:  #651c64;
+    color:  #aee637;
     text-decoration: none;
     transition: 0.3s;
     font-size: 20px;
@@ -24,6 +24,7 @@ body {
   }
   
   nav {
+    background-color: #383939;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -119,10 +120,13 @@ body {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 36%;
+    top: 29%;
     left: 26%;
     transform: translate(-50%, -30%);
     animation: slide 3s;
+  }
+  .titulo-h2{
+    margin-top: -5%;
   }
 
 @keyframes slide{
@@ -132,7 +136,7 @@ body {
 }
 
   div h1 {
-    color: #973595;
+    color: #aee637;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     background: none;
@@ -144,26 +148,6 @@ body {
     text-decoration: none;
     background: none;
   }
-section div .mancha{
-  margin: 0;
-  padding: 0;
-}
-  .mancha {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-}
-
-.mancha::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, #a980d0 20%, transparent 80%);
-    top: -20px; /* Ajuste a posição para onde você deseja a mancha */
-    left: 12px; /* Ajuste a posição para onde você deseja a mancha */
-}
 
 .carousel-container {
   position: relative;
