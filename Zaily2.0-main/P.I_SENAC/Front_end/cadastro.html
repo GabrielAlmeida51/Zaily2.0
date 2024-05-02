@@ -15,7 +15,14 @@
 <body>
     <div class="container">
         <div class="form-image">
-            <img src="../Front_end/assets/img/corrida.jpg" alt="">
+            <div>
+                <h1>ZAILY</h1>
+            </div>
+            <div class="frase">
+            <h1>Venha fazer parte de um sonho...</h1><br>
+            <br><h2>Cadastre-se no melhor site de bikers do mundo!</h2>
+        </div>
+        <img src="../Front_end/assets/img/young-adult-using-electric-bike-country-side.jpg" alt="">
         </div>
 
         <div id="form">
@@ -24,6 +31,11 @@
                     <div class="title">
                         <h1>Cadastre-se</h1>
                     </div>
+
+                    <div class="icon">
+                        <i id="mode_icon" class="fa-solid fa-moon"></i>
+                    </div>
+                </div>
 
                 <div class="input-group">
                     <div class="input-box">
@@ -50,6 +62,7 @@
                         <label for="password">Senha</label>
                         <div class="input-wrapper">
                             <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                            <i class="fa fa-eye-slash toggleIcons" aria-hidden="true" id="password-toggle"></i>
                         </div>
                     </div>
 
@@ -57,12 +70,42 @@
                         <label for="confirmpassword">Confirme sua senha</label>
                         <div class="input-wrapper">
                             <input id="confirmpassword" type="password" name="confirmpassword" placeholder="Digite sua senha" required>
+                            <i class="fa fa-eye-slash toggleIconsConfirm" aria-hidden="true" id="confirmpassword-toggle"></i>
                         </div>
                     </div>
                 </div>
 
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero:</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="other" name="gender">
+                            <label for="other">Outro</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="other" name="gender" checked>
+                            <label for="other">Prefiro não dizer</label>
+                        </div>
+                    </div>
+
+                </div>
+
                 <div class="continue-button">
-                    <button><a type="submit" href="../Front_end/login.html">Continuar</a></button>
+                    <button><a href="../Front_end/login.html" type="submit">Continuar</a></button>
                 </div>
             </form>
         </div>
