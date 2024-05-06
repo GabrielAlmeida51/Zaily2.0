@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to left, #242724, #3c3f3b, #2d332efa);
+    background-image: linear-gradient(to left, #242724, #3e413d, #5e635ffa);
     animation: degrade-animado 5s  infinite alternate;
 }
 @keyframes degrade-animado{
@@ -343,6 +343,6 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 60%;
-    left: 29.5%;
+    left: 29.8%;
     border-radius: 2%;
 }

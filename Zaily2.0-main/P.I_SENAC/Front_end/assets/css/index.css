@@ -226,6 +226,7 @@ div pre{
   margin-bottom: 20px; /* Espaçamento abaixo do subtítulo */
 }
 
+
 .texto-resumo p {
   font-size: 26px; /* Tamanho do texto */
   line-height: 1.6; /* Espaçamento entre linhas */
@@ -271,6 +272,39 @@ div pre{
 }
 
 .texto-resumo-2 li {
+  margin-bottom: 15px; /* Espaçamento entre itens da lista */
+}
+.pagina-4 {
+  font-family: Arial, sans-serif;
+  color: #333; /* Cor do texto */
+  position: absolute;
+  top: 320%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.comunidade-3 h1 {
+  font-size: 50px; /* Tamanho do título */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.comunidade-3 h2 {
+  font-size: 30px; /* Tamanho do subtítulo */
+  color: #666; /* Cor do subtítulo */
+  margin-bottom: 20px; /* Espaçamento abaixo do subtítulo */
+}
+
+.texto-resumo-3 p {
+  font-size: 26px; /* Tamanho do texto */
+  line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+.texto-resumo-3 ul {
+  list-style-type: none; /* Remove a marcação da lista */
+  padding: 0; /* Remove o espaçamento interno da lista */
+}
+
+.texto-resumo-3 li {
   margin-bottom: 15px; /* Espaçamento entre itens da lista */
 }
 
